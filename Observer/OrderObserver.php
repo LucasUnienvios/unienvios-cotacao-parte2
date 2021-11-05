@@ -54,8 +54,7 @@ class OrderObserver implements ObserverInterface
          if($order->getState() == 'processing') {
     		$this->enviarCotacao();
          }
-//	$this->enviarCotacao($order);
-// echo "<pre>"; var_dump("teste");exit;
+
 		
     }
 
