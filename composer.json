@@ -1,12 +1,12 @@
 {
     "name": "unienvios/cotacao-parte-2",
-    "description": "Essa é uma parte integrante do módulo Cotação da Unienvios, sendo responsável pela seleção do método de entrega",
+    "description": "Essa é uma parte integrante do módulo Cotação da Unienvios, sendo responsável pelo envio dos dados para a api",
     "type": "magento2-module",
     "version": "1.0.0",
     "authors": [
         {
             "name": "Unienvios",
-            "homepage": "https://unienvios.com.br",
+            "homepage": "https://unienvios.com.br"
         }
     ],
     "require": {
