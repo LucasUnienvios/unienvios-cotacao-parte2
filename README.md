@@ -4,7 +4,7 @@ Add a custom form fields to the checkout shipping address form fields and save t
 
 # Installation
 
-- Copy the content of the repo to the <b>app/code/Unienvios/Cotacao</b>
+- Copy the content of the repo to the <b>app/code/Unienvios/SendCotacao</b>
 - Run command: <b>php bin/magento setup:upgrade</b>
 - Run command: <b>php bin/magento setup:static-content:deploy </b>  (Use -f for force deploy on 2.2.x or later)
 - Now flush cache: <b>php bin/magento cache:flush</b>
