@@ -65,7 +65,7 @@ class OrderObserver implements ObserverInterface
         $this->_curl->addHeader("email", $this->getReceipentEmail());
         $this->_curl->addHeader("password", $this->getReceipentSenha());
         $this->_curl->addHeader("token", $token);
-        $this->_curl->post("https://apihml.unienvios.com.br/external-integration/quotation/create", $parans);
+        $this->_curl->post("https://api.unienvios.com.br/external-integration/quotation/create", $parans);
         $response =$this->_curl->getBody();
 	
 	return $response;
