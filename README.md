@@ -1,6 +1,6 @@
 # Unienvios - Módulo 2
 
-Esse módulo é responsável por executar a ação de enviar os dados do pedido para a API quando o status do pedido for alterado para "processando".
+Esse módulo é responsável por executar a ação de enviar os dados da cotação salvos no pedido para a API quando o status do pedido for alterado para "processando".
 
 # Instalação
 - Copie o conteúdo do repositório para <b>app/code/Unienvios/SendCotacao</b>
