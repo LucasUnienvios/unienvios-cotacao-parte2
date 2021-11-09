@@ -1,14 +1,10 @@
-# unienvios-cotacao-parte2
+# Unienvios - Módulo 2
 
-Add a custom form fields to the checkout shipping address form fields and save the value into database - Magento 2
+Esse módulo é responsável por executar a ação de enviar os dados do pedido para a API quando o status do pedido for alterado para "processando".
 
-# Installation
-
-- Copy the content of the repo to the <b>app/code/Unienvios/SendCotacao</b>
-- Run command: <b>php bin/magento setup:upgrade</b>
-- Run command: <b>php bin/magento setup:static-content:deploy </b>  (Use -f for force deploy on 2.2.x or later)
-- Now flush cache: <b>php bin/magento cache:flush</b>
-
-# Support
-
-If you encounter any problems or bugs, please <a href="https://github.com/magentodevblog/magento-2-add-a-custom-field-to-checkout-shipping/issues">open an issue</a> on GitHub.
+# Instalação
+- Copie o conteúdo do repositório para <b>app/code/Unienvios/SendCotacao</b>
+- Execute o comando: <b>php bin/magento setup:upgrade</b>
+- Execute o comando: <b>php bin/magento setup:static-content:deploy pt_BR en_US -f
+</b>  (Use -f for force deploy on 2.2.x or later)
+- Agora limpe a cache <b>php bin/magento cache:flush</b>
